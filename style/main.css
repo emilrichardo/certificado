@@ -1,0 +1,106 @@
+
+body{
+    font-family: 'TT Lakes Medium DEMO';
+    font-weight: 500;
+    background: url("./../images/bg.jpg") top no-repeat ;
+    color: #fff;
+    background-color: #111111;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.certification{
+    border: solid 8px  #00cc54;
+    margin: 15px;
+    box-sizing: border-box;
+    max-width: 800px;
+    width: calc(100vw - 30px);
+    height: calc(100vh - 30px );
+}
+
+
+.logo-cert{
+    max-width: 180px;
+}
+
+.certification h1{
+    font-size: 28px;
+    margin-top: 24px;
+}
+
+.line-long{
+    max-width: 250px;
+}
+
+.line-short{
+    width: 80px;
+    position: absolute;
+
+    left: 0;
+    bottom: -7px;
+
+}
+
+.cert-list{
+    font-size: 18px;
+}
+
+.cert-list li{
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+
+}
+.cert-list li > img{
+    max-width: 56px;
+    margin-right: 20px;
+}
+
+.cert-list li div{
+    position: relative;
+
+}
+
+.box-inner{
+    border: #00cc54 solid 2px;
+    padding: 5vh ;
+    margin: 3px;
+    height: calc(100% - 6px);
+
+}
+/*utilidades*/
+.text-center{
+    text-align: center;
+}
+
+
+@media (min-width: 1024px){
+    .certification{
+        margin: 15px auto;
+    }
+    .certification h1{
+        font-size: 52px;
+    }
+
+    .cert-list{
+        font-size: 30px;
+    }
+
+    .cert-list li > img{
+        max-width: 72px;
+
+    }
+
+    span.label{
+        width: 320px;
+        display: inline-block;
+    }
+
+}
